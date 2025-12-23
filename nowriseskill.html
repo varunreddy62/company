@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NowRise Institute - Vriddhion &amp; Udaanex</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+ <link rel="stylesheet" href="assets/css/global.css">
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#C6A75E", // Muted Gold
+                        "ivory": "#F9FAF7", // Soft Ivory
+                        "charcoal": "#1C1F26", // Ink Charcoal
+                        "taupe": "#D8D2C6", // Stone Taupe
+                        "sage": "#9FAEA1", // Sage Grey
+                        "muted-text": "#6B7280", // Muted text
+                    },
+                    fontFamily: {
+                        "sans": ['IBM Plex Sans', 'sans-serif'],
+                        "display": ['IBM Plex Sans', 'sans-serif']
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background-color: #F9FAF7;
+            color: #1C1F26;
+        }
+        /* Custom scrollbar for cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F9FAF7; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #D8D2C6; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #C6A75E; 
+        }
+    </style>
+</head>
+<body>
+    <script src="assets/js/main.js"></script>
+
+<div class="relative flex min-h-screen w-full flex-col bg-ivory overflow-x-hidden">
+<!-- Sticky Navbar -->
+<header class="sticky top-0 z-50 w-full bg-ivory/95 backdrop-blur-sm border-b border-sage/20">
+<div class="px-6 lg:px-12 max-w-[1440px] mx-auto h-[72px] flex items-center justify-between">
+<!-- Logo -->
+<div class="flex items-center gap-3 text-charcoal">
+    <div class="hover-lift rounded-lg bg-white p-6">
+
+<div class="flex items-center justify-center size-8 bg-charcoal rounded text-ivory">
+<span class="material-symbols-outlined text-xl">dataset</span>
+</div>
+<h2 class="text-charcoal text-lg font-semibold tracking-tight whitespace-nowrap">Vriddhion &amp; Udaanex</h2>
+</div>
+<!-- Desktop Nav -->
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-charcoal text-[15px] font-medium hover:text-primary transition-colors" href="home.html">Home</a>
+<a class="text-charcoal text-[15px] font-medium hover:text-primary transition-colors" href="whatwedo.html">What We Do</a>
+<!-- Active Link -->
+<div class="relative group h-[72px] flex items-center">
+<a class="text-charcoal text-[15px] font-medium text-primary" href="nowriseskill.html">NowRise Institute</a>
+<div class="absolute bottom-0 left-0 w-full h-[3px] bg-primary"></div>
+</div>
+<a class="text-charcoal text-[15px] font-medium hover:text-primary transition-colors" href="talent-hiring.html">Talent &amp; Hiring</a>
+<a class="text-charcoal text-[15px] font-medium hover:text-primary transition-colors" href="ai-growth.html">AI &amp; Growth</a>
+<a class="text-charcoal text-[15px] font-medium hover:text-primary transition-colors" href="career.html">Careers</a>
+</nav>
+<!-- CTA -->
+<div class="flex items-center gap-4">
+<button class="hidden md:flex cursor-pointer items-center justify-center rounded-md h-10 px-5 bg-primary text-charcoal text-[15px] font-medium transition hover:brightness-110">
+                        Contact
+                    </button>
+<!-- Mobile Menu Icon -->
+<button class="lg:hidden text-charcoal p-2">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex flex-col flex-1">
+<!-- Hero Section -->
+<section class="relative px-6 py-16 lg:px-12 lg:py-24 max-w-[1440px] mx-auto w-full">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+<div class="flex flex-col gap-6 lg:max-w-[600px] text-left">
+<h1 class="text-charcoal text-[42px] leading-[1.1] md:text-[52px] lg:text-[56px] font-semibold tracking-tight">
+                            Learn Skills That Actually Build Careers
+                        </h1>
+<p class="text-charcoal text-[18px] font-normal leading-relaxed max-w-[540px]">
+                            Industry-aligned training with real projects and placement support. Bridge the gap between theory and the workplace.
+                        </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="flex items-center justify-center rounded-md h-12 px-8 bg-charcoal text-white text-[17px] font-medium hover:bg-opacity-90 transition">
+                                Apply Now
+                            </button>
+<button class="flex items-center justify-center rounded-md h-12 px-8 border border-charcoal text-charcoal text-[17px] font-medium hover:bg-gray-100 transition">
+                                View Programs
+                            </button>
+</div>
+</div>
+<div class="relative w-full aspect-[4/3] lg:aspect-square lg:h-[500px] lg:w-auto rounded-lg overflow-hidden bg-taupe/30">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Students collaborating on a laptop in a modern office space" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAgrWhkCSBguQ_AWQ0hlLnjOEB8Iu8qviiahvoIK-5kJFRrzEYLsVeUksvhrh09W3gt2HYo7G5s68N_M6YgPa73sxwGAB6oPgaSmxauHUPtUg533WMrVpwfJFdFlyApEu6UdRFkrrUFKQAvp9wyRWRHoJIs4PjedrKqywWXkthZAhRrOd2vUPd4lrTqNDtf2XSy1TehuQhjchHfJfyojN6aLSjrrFKM9Wfrn74eLNsicBzPBznU6iFXmx5sR1JsucFaf8EwJF08-sw');">
+</div>
+</div>
+</div>
+</section>
+<!-- Programs Overview -->
+<section class="px-6 py-16 lg:px-12 lg:py-20 bg-ivory max-w-[1440px] mx-auto w-full">
+<div class="flex flex-col gap-10">
+<div class="text-left max-w-2xl">
+<h2 class="text-charcoal text-[32px] md:text-[40px] lg:text-[44px] font-semibold leading-tight">Our Programs</h2>
+<p class="text-muted-text mt-3 text-lg">Structured pathways designed for tangible career growth.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="group flex flex-col bg-taupe p-8 rounded-lg gap-6 hover:shadow-lg transition-all duration-300">
+<div class="size-12 bg-charcoal text-primary rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">school</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-charcoal text-[24px] font-medium">Skill Development</h3>
+<p class="text-charcoal/80 text-[17px] leading-relaxed">
+                                    Comprehensive courses designed to bridge the gap between academic theory and industry application through hands-on labs.
+                                </p>
+</div>
+<div class="mt-auto pt-4">
+<a class="inline-flex items-center text-charcoal font-semibold text-[15px] hover:text-primary transition group-hover:translate-x-1" href="nowriseskill.html#courses">
+                                    Explore Courses <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group flex flex-col bg-taupe p-8 rounded-lg gap-6 hover:shadow-lg transition-all duration-300">
+<div class="size-12 bg-charcoal text-primary rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">work_history</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-charcoal text-[24px] font-medium">Internships</h3>
+<p class="text-charcoal/80 text-[17px] leading-relaxed">
+                                    Gain hands-on experience working on live corporate projects alongside industry professionals and mentors.
+                                </p>
+</div>
+<div class="mt-auto pt-4">
+<a class="inline-flex items-center text-charcoal font-semibold text-[15px] hover:text-primary transition group-hover:translate-x-1" href="career.html#openings">
+                                    Find Openings <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group flex flex-col bg-taupe p-8 rounded-lg gap-6 hover:shadow-lg transition-all duration-300">
+<div class="size-12 bg-charcoal text-primary rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">verified</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-charcoal text-[24px] font-medium">Certification Tracks</h3>
+<p class="text-charcoal/80 text-[17px] leading-relaxed">
+                                    Earn recognized credentials that validate your expertise in AI, Data Science, and Modern Web Technologies.
+                                </p>
+</div>
+<div class="mt-auto pt-4">
+<a class="inline-flex items-center text-charcoal font-semibold text-[15px] hover:text-primary transition group-hover:translate-x-1" href="nowriseskill.html#certifications">
+                                    View Certifications <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Learning Model -->
+<section class="px-6 py-16 lg:px-12 lg:py-24 max-w-[1440px] mx-auto w-full border-t border-sage/20">
+<div class="mb-16 text-left">
+<h2 class="text-charcoal text-[32px] md:text-[40px] lg:text-[44px] font-semibold leading-tight">How You Grow</h2>
+<p class="text-muted-text mt-3 text-lg">A proven methodology for career acceleration.</p>
+</div>
+<div class="relative">
+<!-- Connecting line for desktop -->
+<div class="hidden lg:block absolute top-[28px] left-0 w-full h-[2px] bg-sage/30 z-0"></div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-6">
+<!-- Step 1 -->
+<div class="relative z-10 flex flex-col items-start gap-4 bg-ivory pr-4">
+<div class="flex items-center justify-center size-14 rounded-full bg-white border-2 border-primary text-primary shadow-sm">
+<span class="material-symbols-outlined text-2xl">menu_book</span>
+</div>
+<h3 class="text-[22px] font-semibold text-charcoal">Learn</h3>
+<p class="text-[17px] text-muted-text leading-relaxed">
+                                Master fundamental concepts through interactive modules and expert-led sessions.
+                            </p>
+</div>
+<!-- Step 2 -->
+<div class="relative z-10 flex flex-col items-start gap-4 bg-ivory pr-4">
+<div class="flex items-center justify-center size-14 rounded-full bg-white border-2 border-sage text-charcoal shadow-sm">
+<span class="material-symbols-outlined text-2xl">terminal</span>
+</div>
+<h3 class="text-[22px] font-semibold text-charcoal">Practice</h3>
+<p class="text-[17px] text-muted-text leading-relaxed">
+                                Apply your knowledge in sandboxed environments designed to simulate real coding challenges.
+                            </p>
+</div>
+<!-- Step 3 -->
+<div class="relative z-10 flex flex-col items-start gap-4 bg-ivory pr-4">
+<div class="flex items-center justify-center size-14 rounded-full bg-white border-2 border-sage text-charcoal shadow-sm">
+<span class="material-symbols-outlined text-2xl">group_work</span>
+</div>
+<h3 class="text-[22px] font-semibold text-charcoal">Work</h3>
+<p class="text-[17px] text-muted-text leading-relaxed">
+                                Contribute to live industry projects under the guidance of senior technical mentors.
+                            </p>
+</div>
+<!-- Step 4 -->
+<div class="relative z-10 flex flex-col items-start gap-4 bg-ivory pr-4">
+<div class="flex items-center justify-center size-14 rounded-full bg-primary text-charcoal shadow-md">
+<span class="material-symbols-outlined text-2xl">rocket_launch</span>
+</div>
+<h3 class="text-[22px] font-semibold text-charcoal">Get Placed</h3>
+<p class="text-[17px] text-muted-text leading-relaxed">
+                                Leverage our hiring network to secure a position that matches your new skill set.
+                            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Outcomes / Stats -->
+<section class="bg-charcoal text-ivory w-full">
+<div class="px-6 py-20 lg:px-12 lg:py-24 max-w-[1440px] mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-6">
+<h2 class="text-[32px] md:text-[40px] lg:text-[44px] font-semibold leading-tight text-white">
+                                Delivering Real Results
+                            </h2>
+<p class="text-gray-400 text-[18px] leading-relaxed max-w-[480px]">
+                                We don't just teach; we transform potential into professional capability through rigor and relevance.
+                            </p>
+<div class="h-1 w-20 bg-primary mt-2"></div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div class="flex flex-col p-6 border-l border-white/10">
+<span class="text-primary text-5xl md:text-6xl font-bold mb-2">94%</span>
+<span class="text-xl font-medium text-white mb-1">Industry-Ready Skills</span>
+<span class="text-gray-400 text-sm">Graduates passing technical assessments</span>
+</div>
+<div class="flex flex-col p-6 border-l border-white/10">
+<span class="text-primary text-5xl md:text-6xl font-bold mb-2">50+</span>
+<span class="text-xl font-medium text-white mb-1">Real Projects</span>
+<span class="text-gray-400 text-sm">Completed by student cohorts</span>
+</div>
+<div class="flex flex-col p-6 border-l border-white/10">
+<span class="text-primary text-5xl md:text-6xl font-bold mb-2">100%</span>
+<span class="text-xl font-medium text-white mb-1">Placement Support</span>
+<span class="text-gray-400 text-sm">Interview prep and resume building</span>
+</div>
+<div class="flex flex-col p-6 border-l border-white/10 justify-center">
+<div class="flex items-center gap-2 text-primary cursor-pointer hover:text-white transition">
+<span class="text-lg font-semibold">Read Impact Stories</span>
+<span class="material-symbols-outlined">arrow_right_alt</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Enroll CTA -->
+<section class="px-6 py-20 lg:px-12 lg:py-28 max-w-[1440px] mx-auto w-full">
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-10 bg-taupe/30 rounded-xl p-8 md:p-16 border border-taupe">
+<div class="max-w-2xl">
+<h2 class="text-charcoal text-[32px] md:text-[40px] font-semibold leading-tight">Your career deserves real skills.</h2>
+<p class="text-charcoal/70 mt-4 text-[18px]">Join the next cohort of industry leaders at NowRise Institute.</p>
+</div>
+<div class="shrink-0">
+<button class="flex items-center justify-center rounded-md h-14 px-8 bg-primary text-charcoal text-[18px] font-semibold hover:bg-[#b09350] transition shadow-sm">
+                            Apply to NowRise
+                        </button>
+</div>
+</div>
+</section>
+<!-- Footer Simple -->
+<footer class="border-t border-sage/20 py-10 px-6 lg:px-12 bg-ivory">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<span class="text-muted-text text-sm">© 2023 Vriddhion &amp; Udaanex. All rights reserved.</span>
+<div class="flex gap-6">
+<a class="text-muted-text hover:text-charcoal text-sm" href="contact.html">Privacy Policy</a>
+<a class="text-muted-text hover:text-charcoal text-sm" href="contact.html">Terms of Service</a>
+</div>
+</div>
+</footer>
+</main>
+</div>
+</body></html>

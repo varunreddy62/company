@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vriddhion &amp; Udaanex - Corporate Home</title>
+<!-- Google Fonts: IBM Plex Sans as requested -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS with Plugins -->
+ <link rel="stylesheet" href="assets/css/global.css">
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Configuration -->
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "soft-ivory": "#F9FAF7",
+              "ink-charcoal": "#1C1F26",
+              "muted-gold": "#C6A75E",
+              "stone-taupe": "#D8D2C6",
+              "sage-grey": "#9FAEA1",
+              "deep-slate": "#243447",
+              "muted-text": "#6B7280",
+            },
+            fontFamily: {
+              "sans": ['"IBM Plex Sans"', "sans-serif"],
+              "display": ['"IBM Plex Sans"', "sans-serif"],
+            },
+            borderRadius: {
+              "DEFAULT": "0.375rem", // rounded-md
+              "lg": "0.5rem", 
+              "xl": "0.75rem", 
+            },
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background-color: #F9FAF7;
+            color: #1C1F26;
+        }
+        /* Sticky navbar transition */
+        .sticky-nav {
+            transition: all 0.3s ease;
+        }
+        /* Custom underline for active links */
+        .nav-link:hover, .nav-link.active {
+            color: #1C1F26;
+            position: relative;
+        }
+        .nav-link:hover::after, .nav-link.active::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            width: 100%;
+            height: 2px;
+            background-color: #C6A75E;
+        }
+    </style>
+</head>
+<script src="assets/js/main.js"></script>
+
+<body class="bg-soft-ivory text-ink-charcoal font-sans antialiased overflow-x-hidden selection:bg-muted-gold selection:text-white">
+<!-- Navbar -->
+<header class="sticky-nav sticky top-0 z-50 w-full border-b border-[#E5E7EB] bg-soft-ivory/90 backdrop-blur-md">
+<div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
+<!-- Logo -->
+<div class="flex items-center gap-3">
+    <div class="hover-lift rounded-lg bg-white p-6">
+
+<div class="flex h-10 w-10 items-center justify-center rounded-md bg-deep-slate text-white">
+<span class="material-symbols-outlined">hub</span>
+</div>
+<div class="flex flex-col">
+<span class="text-xl font-semibold leading-tight tracking-tight">Vriddhion &amp; Udaanex</span>
+</div>
+</div>
+<!-- Desktop Nav -->
+<nav class="hidden lg:flex lg:gap-8">
+<a class="nav-link text-[15px] font-medium text-ink-charcoal transition-colors" href="home.html">Home</a>
+<a class="nav-link text-[15px] font-medium text-ink-charcoal transition-colors" href="whatwedo.html">What We Do</a>
+<a class="nav-link text-[15px] font-medium text-ink-charcoal transition-colors" href="nowriseskill.html">NowRise Institute</a>
+<a class="nav-link text-[15px] font-medium text-ink-charcoal transition-colors" href="talent-hiring.html">Talent &amp; Hiring</a>
+<a class="nav-link text-[15px] font-medium text-ink-charcoal transition-colors" href="ai-growth.html">AI &amp; Growth</a>
+<a class="nav-link text-[15px] font-medium text-ink-charcoal transition-colors" href="career.html">Careers</a>
+</nav>
+<!-- CTA / Contact -->
+<div class="hidden lg:flex">
+<a class="rounded-md border border-deep-slate px-4 py-2 text-[15px] font-medium text-deep-slate transition hover:bg-deep-slate hover:text-white" href="contact.html">
+          Contact
+        </a>
+</div>
+<!-- Mobile Menu Button -->
+<button class="flex lg:hidden text-ink-charcoal">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden py-16 lg:py-24">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+<!-- Left Content -->
+<div class="flex flex-col items-start gap-6 max-w-2xl">
+<h1 class="text-5xl font-semibold leading-[1.1] tracking-tight text-ink-charcoal sm:text-[56px]">
+                        Building Skilled Talent. Powering Businesses with Technology &amp; AI.
+                    </h1>
+<p class="text-lg font-normal leading-relaxed text-muted-text max-w-lg">
+                        We operate across education, talent deployment, and AI-driven business growth to create real-world outcomes.
+                    </p>
+<div class="mt-4 flex flex-wrap gap-4">
+<a class="inline-flex h-12 items-center justify-center rounded-md bg-muted-gold px-6 text-base font-medium text-white shadow-sm transition-transform hover:translate-y-[-1px] hover:bg-[#b0934e]" href="nowriseskill.html">
+              Explore Training Programs
+            </a>
+<a class="inline-flex h-12 items-center justify-center rounded-md border border-gray-300 bg-white px-6 text-base font-medium text-ink-charcoal shadow-sm transition-colors hover:bg-gray-50" href="talent-hiring.html">
+              Hire Talent
+            </a>
+<a class="inline-flex h-12 items-center justify-center px-4 text-base font-medium text-deep-slate underline decoration-muted-gold underline-offset-4 transition hover:text-muted-gold" href="contact.html">
+              Talk to Us
+            </a>
+</div>
+</div>
+<!-- Right Visual -->
+<div class="relative h-full w-full flex justify-center lg:justify-end">
+<!-- Abstract geometric illustration representing structure and growth -->
+<div class="relative aspect-square w-full max-w-[500px] overflow-hidden rounded-2xl bg-gradient-to-br from-stone-taupe/20 to-white p-8">
+<div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+<!-- Decorative Elements mimicking a system diagram -->
+<div class="absolute top-1/4 left-1/4 h-32 w-32 rounded-full border-2 border-muted-gold/30 bg-white/50 backdrop-blur-sm"></div>
+<div class="absolute bottom-1/3 right-1/4 h-48 w-48 rounded-full border border-deep-slate/10 bg-deep-slate/5"></div>
+<div class="absolute top-1/2 left-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 transform rounded-xl bg-muted-gold shadow-lg" data-alt="Abstract gold geometric cube representing core value"></div>
+<div class="absolute bottom-12 left-12 h-16 w-48 rounded-lg bg-deep-slate shadow-xl opacity-90"></div>
+<div class="absolute top-12 right-12 h-12 w-12 rounded-full bg-sage-grey/40"></div>
+<!-- Floating icon cards -->
+<div class="absolute top-[20%] right-[10%] flex items-center gap-2 rounded-lg bg-white p-3 shadow-md">
+<span class="material-symbols-outlined text-muted-gold">school</span>
+<span class="text-xs font-semibold">EdTech</span>
+</div>
+<div class="absolute bottom-[20%] left-[10%] flex items-center gap-2 rounded-lg bg-white p-3 shadow-md">
+<span class="material-symbols-outlined text-deep-slate">psychology</span>
+<span class="text-xs font-semibold">AI Logic</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Snapshot -->
+<section class="border-y border-[#E5E7EB] bg-white py-10">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-4">
+<div class="flex flex-col items-center justify-center text-center gap-2 md:items-start md:text-left">
+<span class="material-symbols-outlined text-3xl text-muted-gold">verified_user</span>
+<h3 class="text-sm font-semibold text-muted-text uppercase tracking-wide">Trust</h3>
+<p class="font-medium text-ink-charcoal">Private Limited Company</p>
+</div>
+<div class="flex flex-col items-center justify-center text-center gap-2 md:items-start md:text-left">
+<span class="material-symbols-outlined text-3xl text-muted-gold">hub</span>
+<h3 class="text-sm font-semibold text-muted-text uppercase tracking-wide">Ecosystem</h3>
+<p class="font-medium text-ink-charcoal">Education &amp; Talent</p>
+</div>
+<div class="flex flex-col items-center justify-center text-center gap-2 md:items-start md:text-left">
+<span class="material-symbols-outlined text-3xl text-muted-gold">workspace_premium</span>
+<h3 class="text-sm font-semibold text-muted-text uppercase tracking-wide">Programs</h3>
+<p class="font-medium text-ink-charcoal">Industry-Aligned</p>
+</div>
+<div class="flex flex-col items-center justify-center text-center gap-2 md:items-start md:text-left">
+<span class="material-symbols-outlined text-3xl text-muted-gold">auto_graph</span>
+<h3 class="text-sm font-semibold text-muted-text uppercase tracking-wide">Solutions</h3>
+<p class="font-medium text-ink-charcoal">AI &amp; Business Growth</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Verticals -->
+<section class="py-20 bg-stone-taupe">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="mb-12">
+<h2 class="text-4xl font-semibold text-ink-charcoal">Our Core Verticals</h2>
+<p class="mt-4 text-lg text-ink-charcoal/80 max-w-2xl">
+                    Bridging the gap between learning and earning through integrated solutions.
+                </p>
+</div>
+<div class="grid gap-8 md:grid-cols-3">
+<!-- Card 1 -->
+<div class="group flex flex-col justify-between rounded-lg bg-white p-8 shadow-sm transition-shadow hover:shadow-xl">
+<div>
+<div class="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-soft-ivory text-deep-slate">
+<span class="material-symbols-outlined text-3xl">school</span>
+</div>
+<h3 class="mb-3 text-2xl font-semibold text-ink-charcoal">Education &amp; Skill Development</h3>
+<p class="text-[17px] text-muted-text leading-relaxed">
+                            Training, internships, and placement support through NowRise Institute to build career-ready professionals.
+                        </p>
+</div>
+<div class="mt-8">
+<a class="inline-flex items-center text-[15px] font-semibold text-muted-gold transition-colors hover:text-[#a08546]" href="nowriseskill.html">
+                            Explore NowRise 
+                            <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group flex flex-col justify-between rounded-lg bg-white p-8 shadow-sm transition-shadow hover:shadow-xl">
+<div>
+<div class="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-soft-ivory text-deep-slate">
+<span class="material-symbols-outlined text-3xl">groups</span>
+</div>
+<h3 class="mb-3 text-2xl font-semibold text-ink-charcoal">Talent &amp; Resource Solutions</h3>
+<p class="text-[17px] text-muted-text leading-relaxed">
+                            Interns, freelancers, trainers, and resource outsourcing for businesses looking to scale efficiently.
+                        </p>
+</div>
+<div class="mt-8">
+<a class="inline-flex items-center text-[15px] font-semibold text-muted-gold transition-colors hover:text-[#a08546]" href="talent-hiring.html">
+                            Hire Talent 
+                            <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group flex flex-col justify-between rounded-lg bg-white p-8 shadow-sm transition-shadow hover:shadow-xl">
+<div>
+<div class="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-soft-ivory text-deep-slate">
+<span class="material-symbols-outlined text-3xl">rocket_launch</span>
+</div>
+<h3 class="mb-3 text-2xl font-semibold text-ink-charcoal">AI, Consulting &amp; Growth</h3>
+<p class="text-[17px] text-muted-text leading-relaxed">
+                            AI marketing, automation, and business consulting to drive digital transformation and revenue.
+                        </p>
+</div>
+<div class="mt-8">
+<a class="inline-flex items-center text-[15px] font-semibold text-muted-gold transition-colors hover:text-[#a08546]" href="ai-growth.html">
+                            Book Consultation 
+                            <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Ecosystem Flow -->
+<section class="py-20 bg-soft-ivory">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-semibold text-ink-charcoal">The Ecosystem Flow</h2>
+<p class="mt-4 text-lg text-muted-text">How we connect potential to performance.</p>
+</div>
+<div class="relative">
+<!-- Connecting Line (Desktop) -->
+<div class="absolute top-1/2 left-0 hidden w-full -translate-y-1/2 transform border-t-2 border-dashed border-sage-grey/40 lg:block"></div>
+<div class="grid gap-8 lg:grid-cols-4">
+<!-- Step 1 -->
+<div class="relative flex flex-col items-center text-center bg-soft-ivory z-10 p-4">
+<div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-sage-grey bg-white text-muted-gold shadow-sm">
+<span class="material-symbols-outlined text-3xl">model_training</span>
+</div>
+<h3 class="text-xl font-semibold text-ink-charcoal">1. Train Talent</h3>
+<p class="mt-2 text-muted-text">Foundational &amp; Advanced Skills</p>
+</div>
+<!-- Step 2 -->
+<div class="relative flex flex-col items-center text-center bg-soft-ivory z-10 p-4">
+<div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-sage-grey bg-white text-muted-gold shadow-sm">
+<span class="material-symbols-outlined text-3xl">engineering</span>
+</div>
+<h3 class="text-xl font-semibold text-ink-charcoal">2. Apply Projects</h3>
+<p class="mt-2 text-muted-text">Real-world Implementation</p>
+</div>
+<!-- Step 3 -->
+<div class="relative flex flex-col items-center text-center bg-soft-ivory z-10 p-4">
+<div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-sage-grey bg-white text-muted-gold shadow-sm">
+<span class="material-symbols-outlined text-3xl">business_center</span>
+</div>
+<h3 class="text-xl font-semibold text-ink-charcoal">3. Deploy</h3>
+<p class="mt-2 text-muted-text">Placement &amp; Freelancing</p>
+</div>
+<!-- Step 4 -->
+<div class="relative flex flex-col items-center text-center bg-soft-ivory z-10 p-4">
+<div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-sage-grey bg-white text-muted-gold shadow-sm">
+<span class="material-symbols-outlined text-3xl">trending_up</span>
+</div>
+<h3 class="text-xl font-semibold text-ink-charcoal">4. Grow with AI</h3>
+<p class="mt-2 text-muted-text">Tech-driven Expansion</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Who We Serve -->
+<section class="py-20 bg-white border-t border-gray-100">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<h2 class="mb-12 text-4xl font-semibold text-ink-charcoal">Who We Serve</h2>
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
+<div class="flex flex-col items-start rounded-lg border border-gray-100 bg-soft-ivory p-6 transition hover:border-muted-gold/50">
+<span class="material-symbols-outlined mb-4 text-3xl text-deep-slate">school</span>
+<h3 class="text-lg font-semibold text-ink-charcoal">Students &amp; Graduates</h3>
+</div>
+<div class="flex flex-col items-start rounded-lg border border-gray-100 bg-soft-ivory p-6 transition hover:border-muted-gold/50">
+<span class="material-symbols-outlined mb-4 text-3xl text-deep-slate">badge</span>
+<h3 class="text-lg font-semibold text-ink-charcoal">Working Professionals</h3>
+</div>
+<div class="flex flex-col items-start rounded-lg border border-gray-100 bg-soft-ivory p-6 transition hover:border-muted-gold/50">
+<span class="material-symbols-outlined mb-4 text-3xl text-deep-slate">rocket</span>
+<h3 class="text-lg font-semibold text-ink-charcoal">Startups &amp; SMEs</h3>
+</div>
+<div class="flex flex-col items-start rounded-lg border border-gray-100 bg-soft-ivory p-6 transition hover:border-muted-gold/50">
+<span class="material-symbols-outlined mb-4 text-3xl text-deep-slate">apartment</span>
+<h3 class="text-lg font-semibold text-ink-charcoal">Training Institutes</h3>
+</div>
+<div class="flex flex-col items-start rounded-lg border border-gray-100 bg-soft-ivory p-6 transition hover:border-muted-gold/50">
+<span class="material-symbols-outlined mb-4 text-3xl text-deep-slate">domain_add</span>
+<h3 class="text-lg font-semibold text-ink-charcoal">Growing Businesses</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us (Dark Section) -->
+<section class="bg-deep-slate py-20 text-white">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+<div>
+<h2 class="text-4xl font-semibold leading-tight">Why Partner With Us?</h2>
+<p class="mt-4 text-lg text-gray-300">
+                        We don't just teach or consult; we build end-to-end pathways for success in the digital economy.
+                    </p>
+<div class="mt-10 grid gap-6 sm:grid-cols-2">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-muted-gold">check_circle</span>
+<div>
+<h4 class="font-semibold text-white">Outcome-driven training</h4>
+<p class="text-sm text-gray-400 mt-1">Focus on employability &amp; results.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-muted-gold">check_circle</span>
+<div>
+<h4 class="font-semibold text-white">Unified Ecosystem</h4>
+<p class="text-sm text-gray-400 mt-1">Talent + Business under one roof.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-muted-gold">check_circle</span>
+<div>
+<h4 class="font-semibold text-white">AI-first approach</h4>
+<p class="text-sm text-gray-400 mt-1">Leveraging future tech today.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-muted-gold">check_circle</span>
+<div>
+<h4 class="font-semibold text-white">Scalable Engagement</h4>
+<p class="text-sm text-gray-400 mt-1">Structured for growth.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex justify-center lg:justify-end">
+<!-- Abstract illustration for partnership/connection -->
+<div class="h-80 w-80 rounded-full bg-gradient-to-tr from-muted-gold/20 to-white/5 p-8 backdrop-blur-sm" data-alt="Abstract circular gradient representing synergy">
+<div class="h-full w-full rounded-full border border-white/10 p-8">
+<div class="h-full w-full rounded-full bg-deep-slate shadow-2xl flex items-center justify-center">
+<span class="material-symbols-outlined text-6xl text-muted-gold/50">handshake</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-24 bg-soft-ivory">
+<div class="mx-auto max-w-4xl px-6 text-center lg:px-8">
+<h2 class="text-4xl font-semibold tracking-tight text-ink-charcoal sm:text-5xl">
+                Built for Careers. <br/><span class="text-muted-text">Built for Businesses.</span>
+</h2>
+<div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+<a class="inline-flex h-14 w-full items-center justify-center rounded-md bg-muted-gold px-8 text-lg font-semibold text-white shadow-sm transition-transform hover:-translate-y-1 hover:bg-[#b0934e] sm:w-auto" href="nowriseskill.html">
+          Join NowRise Institute
+        </a>
+<a class="inline-flex h-14 w-full items-center justify-center rounded-md border-2 border-deep-slate bg-transparent px-8 text-lg font-semibold text-deep-slate transition-colors hover:bg-deep-slate hover:text-white sm:w-auto" href="contact.html">
+          Contact Us
+        </a>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="border-t border-[#E5E7EB] bg-white py-12">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="flex flex-col items-center justify-between gap-6 md:flex-row">
+<div class="flex items-center gap-2">
+<div class="flex h-8 w-8 items-center justify-center rounded bg-deep-slate text-white">
+<span class="material-symbols-outlined text-sm">hub</span>
+</div>
+<span class="text-lg font-semibold text-ink-charcoal">Vriddhion &amp; Udaanex</span>
+</div>
+<p class="text-sm text-muted-text">© 2023 Vriddhion &amp; Udaanex. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-muted-text hover:text-ink-charcoal" href="contact.html">LinkedIn</a>
+<a class="text-muted-text hover:text-ink-charcoal" href="contact.html">Twitter</a>
+<a class="text-muted-text hover:text-ink-charcoal" href="contact.html">Instagram</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
